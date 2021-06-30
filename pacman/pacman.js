@@ -48,7 +48,7 @@ var pos = 0;
             item.newimg.style.left = item.position.x;
             item.newimg.style.top = item.position.y;
 
-            item.newimg.src="pacman2.png";
+            item.newimg.src="PacMan2.png";
              
         })
         setTimeout(update, 20);
