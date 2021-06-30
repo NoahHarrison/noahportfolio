@@ -14,6 +14,7 @@ This project demonstrates the canvas-detection feature while designing games, li
 - Navigate to the `Projects` button to find different projects, like PacMan, Eyeballs and BusMap.
 
 ## Roadmap of future improvements
+
 Since this is only the beginning of launching a full fledged version PacMan, here's some potential improvements.
 - 
 
