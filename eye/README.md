@@ -16,9 +16,10 @@ This project demonstrates the mouse-tracking feature on web pages.
 ## Roadmap of future improvements
 
 - Since this is only the beginning of launching a full fledged version PacMan, here's some potential improvements:
-1.  
+1.  Adding a blink feature to the eyes after a certain timeframe.
 
 ### License information
 `afl-3.0`
+`mit`
 
 <img src= "oneeye.png" width='300'/>
