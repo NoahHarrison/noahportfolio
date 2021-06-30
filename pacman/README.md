@@ -16,7 +16,8 @@ This project demonstrates the canvas-detection feature while designing games, li
 ## Roadmap of future improvements
 
 - Since this is only the beginning of launching a full fledged version PacMan, here's some potential improvements:
-1.  
+1.  replace the image in a timed loop to have pacman open and close his mouth.
+2.  reverse direction of the image when it hits the x axis wall.
 
 ### License information
 `afl-3.0`
