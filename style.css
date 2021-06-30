@@ -1,0 +1,122 @@
+html {
+  width: 100%;                    
+  height: 100vh;                  
+  background: rgb(0, 0, 0, 0.1);  
+  font-size: 1.0em;               
+}
+
+body {
+  margin: 0;                      
+  height: 100vh;                  
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rebeccapurple;
+}
+
+a {
+  color: rebeccapurple !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: red !important; 
+
+}
+
+ul{
+  list-style-type: numbers;
+}
+
+div.container {
+  min-height: 25rem;            
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns:
+    [left] 15rem auto 15rem [right];
+  grid-template-rows:
+    [top] 5rem auto 5rem [bottom];
+  grid-template-areas:
+    "head head head"
+    "lefty main righty"
+    "foot foot foot";
+}
+div.header {
+  grid-area: head;     
+  justify-self: center;
+  margin-top: .5rem;
+           
+}
+div.footer {
+  grid-area: foot;
+  justify-self:center;
+  margin-top: 1rem;
+}
+
+div.left {                   
+  grid-area: lefty;
+}
+div.right {
+  grid-area: righty;
+}
+div.main {
+  grid-area: main;
+  width: 30rem;                  
+  justify-self: center;           
+}
+
+
+
+/* ============= video ===================*/
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.reactive {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.reactive img{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 50rem) {     
+  div.left {
+    grid-column-end: left;            
+  }
+  div.right {
+    grid-column-start: right;         
+
+  }
+  
+  div.main {
+    grid-column-start: left;         
+    grid-column-end: right;           
+  }
+}
