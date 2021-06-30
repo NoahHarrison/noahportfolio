@@ -15,8 +15,8 @@ This project demonstrates the canvas-detection feature while designing games, li
 
 ## Roadmap of future improvements
 
-Since this is only the beginning of launching a full fledged version PacMan, here's some potential improvements.
-- 
+- Since this is only the beginning of launching a full fledged version PacMan, here's some potential improvements:
+1.  
 
 ### License information
 `afl-3.0`
