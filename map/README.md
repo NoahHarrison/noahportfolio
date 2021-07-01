@@ -1,6 +1,6 @@
-# Eyes
+# BusMap
 
-This project demonstrates the mouse-tracking feature on web pages.
+This project demonstrates the timeout feature in maps and how maps can be used.
 
 ## How to Run
 #### 1. Running the project locally.
@@ -16,10 +16,11 @@ This project demonstrates the mouse-tracking feature on web pages.
 ## Roadmap of future improvements
 
 - Since this is only the beginning of launching a full fledged version PacMan, here's some potential improvements:
-1.  Adding a blink feature to the eyes after a certain timeframe.
+1.  adding visual markers for each stop along the bus path.
+2.  adding names to the bus stops.
 
 ### License information
 `afl-3.0`
 `mit`
 
-<img src= "oneeye.png" width='300'/>
+
