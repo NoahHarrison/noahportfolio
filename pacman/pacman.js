@@ -54,7 +54,7 @@ var pos = 0;
         setTimeout(update, 20);
     }
 
-    /* ======================= */
+    /* ========== CHANGING IMAGE ============= */
 
     function changeimg() {
       var img = document.getElementById("img");

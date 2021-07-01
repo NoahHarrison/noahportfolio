@@ -20,7 +20,9 @@ h1 {
 }
 
 a {
-  color: rebeccapurple !important;
+  color: rgb(153, 132, 14) !important;
+  font-weight: 1000;
+  font-style: italic;
 }
 
 a:hover {
